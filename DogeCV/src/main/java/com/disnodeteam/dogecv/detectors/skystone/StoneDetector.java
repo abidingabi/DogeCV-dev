@@ -34,8 +34,8 @@ public class StoneDetector extends DogeCVDetector {
 
 
     // Results of the detector
-    private boolean found = false; // Is the gold mineral found
-    private Point screenPosition = new Point(); // Screen position of the mineral
+    private boolean found = false; // Is a stone mineral found
+    private Point screenPosition = new Point(); // Screen position of the stone
     private Rect foundRect = new Rect(); // Found rect
 
     private Mat rawImage = new Mat();
